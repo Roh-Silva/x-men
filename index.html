@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:ital,wght@1,200;1,300;1,500&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ciclope foi o primeiro a ser recrutado pelo Professor Xavier, ocorrendo desde então como líder de campo do grupo. Seus poderes, projetam uma rajada de concussão através dos olhos, que na verdade são aberturas interdimensinais ligando nosso universo a outro.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean foi a quinta e última integrante a ser recrutada para a equipe original, apesar dela ter conhecido Xavier antes dos outros. Foi
+                morta por Xorn e mais tarde foi ressucitada pela Força Fênix. Seus poderes, são telecinese e telepatia; projeção astral; como hospedeira da Força Fênix, era capaz de gerar enorme quantidade de energia e de se converter em energia pura; capacidade de manipulação de objetos em nível subatômico.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra"
+                    data-description="Originalmente denominada Ninfa, elaintegrou a quarta formação dos X-Men, foi apaixonada por Colossus. Seus poderes são intangibilidade podendo atravessar qualquer objeto de matéria sólida, pode caminhar pelo ar e sua mutação secundária de atravessar as barreiras do tempo, assim como ela pode atravessar as barreiras físicas.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade"
+                    data-description="Tempestade é descendente de uma antiga linha de feiticeiras africanas. Todas têm cabelos brancos, olhos azuis e potencial para usar magia. Ex-líder dos X-Men. Ela consegue alterar sua percepção visual para ver o universo como padrões de energia, detectando o fluxo de energia eletromagnética, termal ou cinética e o que pode estar causando um fenômeno climático. Essa capacidade de ver energia, também vale para o sistema nervoso do corpo humano. Voo através do controle de correntes de ar e uma excelente lutadora.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira"
+                    data-description="Já foi líder de campo dos X-Men. Já reteve os poderes e memórias da Capitã Marvel. Ex-membro da Irmandade de Mutantes. É filha adotiva de Mística e namorada do Gambit. Ela pode absorver poderes, memórias e personalidades através do toque. O contato prolongado pode causar uma absorção permanente e a morte da vítima.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="Wolverine"
+                    data-description="Mais conhecido como
+                Logan. Ex-membro do Exército Canadense, Arma X , Tropa Alfa , Departamento H , Departamento K e dos Defensores. É integrante dos X-Men. Além de seu fator de cura (regeneração celular), imunidade a todas as toxinas e patologias, sentidos aguçados, garras retráteis e um esqueleto revestido por Adamantium , tornando-o virtualmente indestrutível.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Noturno integrou a segunda formação dos X-Men, filho da Mística. Ex-líder do Excalibur e padre católico. Além de se teletransportar, tem visão noturna, excelente acrobata,
+                ginasta e artista marcial, tem uma cauda preênsil, capacidade de se prender
+                nas paredes e pode se fundir com as sombras; superagilidade.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto"
+                    data-description="É um judeu sobrevivente do Holocausto. Ele viu sua família ser assassinada no campo de concentração de Auschwitz, onde sobreviveu devido ao surgimento de seus superpoderes, inimigo de longa data dos X-Men, mas já liderou a equipe antes. Recentemente reclassificado como um mutante de nível
+                ômega, seus poderes são incrivelmente vastos. Ele pode gerar e controlar campos magnéticos que o permitem manipular metal, voar, criar campos de força, controlar raios elétricos e radiação eletromagnética.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem"> Ciclope foi o primeiro a ser recrutado pelo
+                    Professor Xavier, ocorrendo desde então como líder de campo do grupo. Seus poderes, projetam uma
+                    rajada de concussão através dos olhos, que na verdade são aberturas interdimensinais ligando nosso
+                    universo a outro.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
